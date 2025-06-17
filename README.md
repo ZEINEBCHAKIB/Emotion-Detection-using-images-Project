@@ -59,12 +59,15 @@ The **FER-2013.csv** dataset is too large for this repository (287 MB).
 ```bash
 git clone https://github.com/ZEINEBCHAKIB/Emotion-detection-using-images.git
 cd Emotion-detection-using-images 
-*2️⃣ Install dependencies:
+```
+2️⃣ Install dependencies:
+```bash
 pip install tensorflow scikit-learn pandas numpy matplotlib opencv-python shap 
-*3️⃣ Ensure you have the FER-2013.csv dataset in the working directory.
+```
+3️⃣ Ensure you have the FER-2013.csv dataset in the working directory.
 
 ---
 
-*# 👨‍💻 Contrubutors
-*- Student: Zeineb Chakib
-*- Professor: Faouzi Marzouki
+# Contrubutors
+- **Student**: Zeineb Chakib
+- **Professor**: Faouzi Marzouki
