@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+*.pyo
+*.pyd
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+
+# TensorFlow / Keras model files
+*.h5
+*.hdf5
+*.pb
+*.tflite
+*.ckpt
+
+# Data files (uncomment if you want to ignore)
+# *.csv
+*.npz
+*.npy
+
+# Logs
+*.log
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# SHAP cache
+shap_cache/
