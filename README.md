@@ -30,17 +30,6 @@ This work was developed as part of the course Introduction à l’Intelligence A
 
 ---
 
-## Installation
-**1️⃣ Clone this repository or download the code:
-```bash
-git clone https://github.com/ZEINEBCHAKIB/Emotion-detection-using-images.git
-cd Emotion-detection-using-images 
-**2️⃣ Install dependencies:
-pip install tensorflow scikit-learn pandas numpy matplotlib opencv-python shap 
-**3️⃣ Ensure you have the FER-2013.csv dataset in the working directory.
-
----
-
 ## How to Run
 # Train the model
 **python emotionDetection.py (on bash)
@@ -74,6 +63,17 @@ project_EmotionDetection/
 ├── external_image2.png               # Example external image (replace with your file names)
 ├── .gitignore                        # Ignore large files, models, cache, etc.
 └── README.md                         # Project documentation
+
+---
+
+## Installation
+**1️⃣ Clone this repository or download the code:
+```bash
+git clone https://github.com/ZEINEBCHAKIB/Emotion-detection-using-images.git
+cd Emotion-detection-using-images 
+**2️⃣ Install dependencies:
+pip install tensorflow scikit-learn pandas numpy matplotlib opencv-python shap 
+**3️⃣ Ensure you have the FER-2013.csv dataset in the working directory.
 
 ---
 
