@@ -26,32 +26,54 @@ This work was developed as part of the course Introduction à l’Intelligence A
 - emotionDetection.py : Builds, trains, evaluates, and saves the CNN emotion detection model.
 - predict_external_images.py : Tests the model on both FER-2013 dataset images and external images.
 - FER-2013.csv : Dataset containing grayscale images of faces and their emotion labels.
-- best_fer2013_emotion_model.h5 : Saved best-performing model after hyperparameter tuning.
 - fer2013_emotion_model.h5 : Initial trained model before tuning.
 
 ---
 
 ## Installation
-1️⃣ Clone this repository or download the code.
-2️⃣ Install dependencies:
-- pip install tensorflow scikit-learn pandas numpy matplotlib opencv-python shap (bash)
-3️⃣ Ensure you have the FER-2013.csv dataset in the working directory.
+**1️⃣ Clone this repository or download the code:
+```bash
+git clone https://github.com/ZEINEBCHAKIB/Emotion-detection-using-images.git
+cd Emotion-detection-using-images 
+**2️⃣ Install dependencies:
+pip install tensorflow scikit-learn pandas numpy matplotlib opencv-python shap 
+**3️⃣ Ensure you have the FER-2013.csv dataset in the working directory.
 
 ---
 
 ## How to Run
-python emotionDetection.py (on bash)
+# Train the model
+**python emotionDetection.py (on bash)
 This will:
 - Load and preprocess data (normalization, one-hot encoding)
 - Build a CNN model
 - Train and save the model
 - Perform hyperparameter tuning and save the best model
+# Predict emotions on external images
+** python predict_external_images.py (on bash)
+You can modify this script to specify external image paths for prediction.
+Update the file names in predict_external_images.py to match your images
 
 ---
 
-## Predict emotions on external images
-python predict_external_images.py (on bash)
-You can modify this script to specify external image paths for prediction.
+## 📥 Dataset
+The **FER-2013.csv** dataset is too large for this repository (287 MB).  
+➡ **Download it manually from this link:**  
+[Download FER-2013.csv](drive.google.com/file/d/10pbtcrBYyMrzuWGf5g_KAaWSYO60ED7v/view?usp=sharing)
+
+ **Place `FER-2013.csv` in the same folder as your code files** (`emotionDetection.py`, etc).
+
+---
+
+## Project Structure
+project_EmotionDetection/
+├── emotionDetection.py               # Main CNN model creation and training script
+├── predict_external_images.py        # Script to test on dataset and external images
+├── FER-2013.csv                      # (Download manually, see below)
+├── external_image1.png               # Example external image (replace with your file names)
+├── external_image2.png               # Example external image (replace with your file names)
+├── .gitignore                        # Ignore large files, models, cache, etc.
+└── README.md                         # Project documentation
 
 ---
 
