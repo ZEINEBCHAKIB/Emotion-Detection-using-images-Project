@@ -1,8 +1,8 @@
-## Emotion Detection System using Deep Learning
+#  Emotion Detection System using Deep Learning
 
 ---
 
-## Overview
+# Overview
 This project implements a deep learning-based emotion detection system using Convolutional Neural Networks (CNNs) applied to facial images. The system performs:
 - Image preprocessing
 - CNN model training
@@ -30,22 +30,22 @@ This work was developed as part of the course Introduction à l’Intelligence A
 
 ---
 
-## How to Run
-# Train the model
+# How to Run
+## Train the model
 **python emotionDetection.py (on bash)
 This will:
 - Load and preprocess data (normalization, one-hot encoding)
 - Build a CNN model
 - Train and save the model
 - Perform hyperparameter tuning and save the best model
-# Predict emotions on external images
+## Predict emotions on external images
 ** python predict_external_images.py (on bash)
 You can modify this script to specify external image paths for prediction.
 Update the file names in predict_external_images.py to match your images
 
 ---
 
-## 📥 Dataset
+# 📥 Dataset
 The **FER-2013.csv** dataset is too large for this repository (287 MB).  
 ➡ **Download it manually from this link:**  
 [Download FER-2013.csv](drive.google.com/file/d/10pbtcrBYyMrzuWGf5g_KAaWSYO60ED7v/view?usp=sharing)
@@ -54,29 +54,17 @@ The **FER-2013.csv** dataset is too large for this repository (287 MB).
 
 ---
 
-## Project Structure
-project_EmotionDetection/
-├── emotionDetection.py               # Main CNN model creation and training script
-├── predict_external_images.py        # Script to test on dataset and external images
-├── FER-2013.csv                      # (Download manually, see below)
-├── external_image1.png               # Example external image (replace with your file names)
-├── external_image2.png               # Example external image (replace with your file names)
-├── .gitignore                        # Ignore large files, models, cache, etc.
-└── README.md                         # Project documentation
-
----
-
-## Installation
-**1️⃣ Clone this repository or download the code:
+# Installation
+1️⃣ Clone this repository or download the code:
 ```bash
 git clone https://github.com/ZEINEBCHAKIB/Emotion-detection-using-images.git
 cd Emotion-detection-using-images 
-**2️⃣ Install dependencies:
+*2️⃣ Install dependencies:
 pip install tensorflow scikit-learn pandas numpy matplotlib opencv-python shap 
-**3️⃣ Ensure you have the FER-2013.csv dataset in the working directory.
+*3️⃣ Ensure you have the FER-2013.csv dataset in the working directory.
 
 ---
 
-👨‍💻 Contributors
-- Student: Zeineb Chakib
-- Professor: Faouzi Marzouki
+*# 👨‍💻 Contrubutors
+*- Student: Zeineb Chakib
+*- Professor: Faouzi Marzouki
