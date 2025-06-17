@@ -35,3 +35,4 @@ Thumbs.db
 
 # SHAP cache
 shap_cache/
+fer2013.csv
